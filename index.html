@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Business</title>
+    <title>Jebne w Semsom</title>
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -56,15 +56,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
             background: white;
             color: #111;
-
             border-radius: 50%;
             text-decoration: none;
-
             font-size: 24px;
-
             transition: 0.3s;
         }
 
@@ -101,6 +97,57 @@
             background: #333 !important;
             color: white !important;
         }
+
+        /* MENU BUTTON */
+
+        .menu-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 35px;
+            padding: 16px 35px;
+            background: white;
+            color: #111;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-radius: 8px;
+            border: 1px solid white;
+            transition: 0.3s;
+        }
+
+        .menu-button:hover {
+            background: transparent;
+            color: white;
+            transform: translateY(-4px);
+        }
+
+        .menu-button i {
+            font-size: 20px;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 13px;
+            color: #777;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .contact-icons {
+                gap: 12px;
+            }
+        }
+
     </style>
 </head>
 
@@ -108,45 +155,44 @@
 
     <section class="landing">
 
-       <h1>Jebne w Semsom</h1>
+        <h1>Jebne w Semsom</h1>
 
-<p>Bakery • Manakish • Pastries • More</p>
+        <p>Bakery • Manakish • Pastries • More</p>
 
         <div class="contact-icons">
 
             <!-- Instagram -->
             <a class="instagram"
-   href="https://www.instagram.com/jebnesemsom?stkn=MWVjZmRsMzhreDdxZQ=="
-   target="_blank">
+               href="https://www.instagram.com/jebnesemsom?stkn=MWVjZmRsMzhreDdxZQ=="
+               target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-instagram"></i>
             </a>
 
             <!-- Facebook -->
-           <a class="facebook"
-   href="https://www.facebook.com/share/19SvMSpN6w/"
-   target="_blank">
+            <a class="facebook"
+               href="https://www.facebook.com/share/19SvMSpN6w/"
+               target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-facebook-f"></i>
             </a>
 
             <!-- TikTok -->
-           <a class="tiktok"
-   href="https://www.tiktok.com/@jebne.semsom?_r=1&_t=ZS-99wdt5zTU8O"
-   target="_blank">
+            <a class="tiktok"
+               href="https://www.tiktok.com/@jebne.semsom?_r=1&_t=ZS-99wdt5zTU8O"
+               target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-tiktok"></i>
             </a>
 
             <!-- WhatsApp -->
-           <a class="whatsapp"
-   href="https://wa.me/96179457672"
-   target="_blank">
+            <a class="whatsapp"
+               href="https://wa.me/96179457672"
+               target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-whatsapp"></i>
             </a>
 
             <!-- Location -->
-          <a class="location"
-   href="https://maps.google.com/maps?q=VGRQ%2BMJ4%2C%2BLebanon&sll=33.89181749159438,35.53983438760042"
-   target="_blank">
-
+            <a class="location"
+               href="https://maps.google.com/maps?q=VGRQ%2BMJ4%2C%2BLebanon&sll=33.89181749159438,35.53983438760042"
+               target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-location-dot"></i>
             </a>
 
@@ -156,6 +202,21 @@
                 <i class="fas fa-phone"></i>
             </a>
 
+        </div>
+
+        <!-- MENU PDF BUTTON -->
+        <a class="menu-button"
+           href="menu.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            <i class="fas fa-book-open"></i>
+            VIEW OUR MENU
+
+        </a>
+
+        <div class="footer">
+            THANK YOU FOR VISITING US
         </div>
 
     </section>
